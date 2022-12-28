@@ -6,6 +6,11 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,vue}",
   ],
   theme: {
+    colors: {
+      primary: '#6C6CFF',
+      secondary:'#434348',
+      "primary-dark": '#252526',
+    },
     extend: {},
   },
   plugins: [],

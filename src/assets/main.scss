@@ -2,5 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.bg-modal-linear{
+  background: linear-gradient(257.28deg, #363537 1.2%, #333336 99.45%);
+}
 
-
+.bg-linear{
+  background: linear-gradient(180deg, #2C2C2E 0%, #1D1D1F 100%);
+}

@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+/* rtl:ignore */
+/* ltr:ignore */
+body{
+  background: #1D1D1F;
+  padding: 0;
+  margin: 0;
+  font-family: 'Cairo', sans-serif;
+  color: #ffff;
+}
+
 .bg-modal-linear{
   background: linear-gradient(257.28deg, #363537 1.2%, #333336 99.45%);
 }

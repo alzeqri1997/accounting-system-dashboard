@@ -5,7 +5,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
 
 /* rtl:ignore */
-/* ltr:ignore */
 body{
   background: #1D1D1F;
   padding: 0;
@@ -24,7 +23,7 @@ body{
 
 // router when active
 .router-link-exact-active{
-  @apply tw-bg-primary
+  @apply tw-bg-primary tw-rounded-[4px] 
 }
 
 .center-flex{

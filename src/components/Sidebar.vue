@@ -4,7 +4,7 @@ import { RouterLink } from 'vue-router';
 import LogoutIcon from './icons/LogoutIcon.vue'
 </script>
 <template>
-  <div class="bg-modal-linear tw-overflow-y-auto tw-flex tw-flex-col tw-pt-[50px] tw-max-w-[314px] tw-h-screen tw-w-full">
+  <div class="bg-modal-linear tw-rounded-[10px] tw-my-[14px] tw-overflow-y-auto tw-flex tw-flex-col tw-pt-[50px] tw-max-w-[314px] tw-h-[calc(100vh-28px)] tw-w-full">
     <div class="tw-flex-grow" >
       <div class="tw-w-full tw-mb-[80px]">
         <div
@@ -16,9 +16,9 @@ import LogoutIcon from './icons/LogoutIcon.vue'
       </div>
       <NavItems/>
     </div>
-    <RouterLink class="tw-bg-primary-dark tw-px-[30px] tw-py-[20px] tw-flex" to="/" >
+    <RouterLink class="tw-bg-primary-dark tw-px-[30px] tw-py-[20px] tw-flex" to="/logout" >
       <LogoutIcon class="tw-ml-[22px]"/>
-      <span>تسجيل خروج</span>
+      <span class="tw-text-[20px]" >تسجيل خروج</span>
     </RouterLink>
   </div>
 </template>

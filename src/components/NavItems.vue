@@ -24,7 +24,7 @@ const navItems = [
           <span class="tw-w-[44px] tw-h-[44px] tw-ml-[12px] tw-bg-primary-dark tw-rounded-full tw-flex tw-justify-center tw-items-center">
             <component class="" :is="icon"></component>
           </span>
-          <span class="tw-text-white" >{{ name }}</span>
+          <span class="tw-text-white tw-text-[20px]" >{{ name }}</span>
         </li>
       </RouterLink>
       <li v-else class="tw-flex tw-rounded-[4px] tw-p-[8px] tw-mb-[12px] tw-mx-[8px] tw-items-center tw-px-[12px] ">

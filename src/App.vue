@@ -1,15 +1,14 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterView } from 'vue-router'
 import SideBar from './components/Sidebar.vue'
+import Header from './components/Header.vue';
 </script>
 
 <template>
-  <div lang="ar" dir="rtl" class="tw-flex " >
+  <div lang="ar" dir="rtl" class="tw-flex  " >
     <SideBar/>
-    <div>
-      <header>
-        <!-- <div class="tw-h-[100px] tw-bg-primary-dark ">t</div> -->
-      </header>
+    <div class="tw-grow" >
+      <Header/>
       <RouterView />
     </div>
   </div>

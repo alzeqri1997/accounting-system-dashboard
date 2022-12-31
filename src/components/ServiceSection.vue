@@ -9,9 +9,9 @@ import CandleIcon from './icons/CandleIcon.vue';
   <div class="bg-modal-linear mt-[15px] mx-[14px] rounded-[10px] py-[18px] px-[25px]">
     <div class="flex justify-between items-center">
       <h1 class="h1"> الخدمات </h1>
-      <div class="flex">
+      <div class="flex items-center">
         <button class="btn ml-[20px]">اضافة خدمة</button>
-        <div class="divider"></div>
+        <div class="divider1"></div>
         <div class="flex gap-[15px] px-[16px]">
           <button class="bg-icon2">
             <DocumentDownloadIcon />
@@ -20,7 +20,7 @@ import CandleIcon from './icons/CandleIcon.vue';
             <PrintIcon />
           </button>
         </div>
-        <div class="divider"></div>
+        <div class="divider1"></div>
 
         <div
           class="flex center-flex ml-[16px] mr-[20px] gap-[4px] shadow1 bg-primary-dark px-[6px] py-[4px] rounded-[10px]">

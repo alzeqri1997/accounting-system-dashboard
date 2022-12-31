@@ -21,7 +21,7 @@ const text = {
         src="../assets/ProfileImage.jpg"
         alt=""
         srcset="">
-      <button class=" tw-w-[39px] tw-h-[39px] tw-bg-primary-dark tw-rounded-full center-flex ">
+      <button class=" bg-icon ">
         <CalenderIcon />
       </button>
       <Switcher :icon="icons" />

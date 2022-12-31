@@ -4,7 +4,8 @@ module.exports = {
     tailwindcss: {},
     autoprefixer: {},
     "postcss-rtl": {
-      fromRTL: true
+      fromRTL: true,
+      blacklist: ['background', 'background-color']
     }
   },
 }

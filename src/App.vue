@@ -12,7 +12,7 @@ const languageStore = useLanguageStore()
 <template>
   <div :lang="languageStore.language || 'ahmed'" :dir=" languageStore.language === 'ar' ? 'rtl' : 'ltr' " class="flex  " >
     <SideBar/>
-    <div class="grow" >
+    <div class="grow flex flex-col" >
       <Header/>
       <RouterView />
     </div>

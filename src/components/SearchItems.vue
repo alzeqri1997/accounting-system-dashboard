@@ -4,7 +4,7 @@ import { ref, onUpdated } from 'vue';
 import ADatepicker from './ADatepicker.vue'
 import InputField from './InputField.vue';
 const searchItems = ref({
-  name: "ahmed",
+  name: '',
   price: '',
   startDate: '',
   endDate: ''

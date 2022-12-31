@@ -15,9 +15,9 @@ const text = {
 
 <template>
   <header
-    class="bg-modal-linear tw-m-[14px] tw-px-[25px] tw-rounded-[10px] tw-h-[87px] tw-flex tw-items-center tw-justify-between ">
-    <div class="tw-flex tw-items-center tw-gap-[11px]">
-      <img class="tw-w-[56px] tw-h-[56px] tw-object-cover tw-rounded-full "
+    class="bg-modal-linear m-[14px] px-[25px] rounded-[10px] h-[87px] flex items-center justify-between ">
+    <div class="flex items-center gap-[11px]">
+      <img class="w-[56px] h-[56px] object-cover rounded-full "
         src="../assets/ProfileImage.jpg"
         alt=""
         srcset="">

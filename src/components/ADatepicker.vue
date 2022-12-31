@@ -1,6 +1,6 @@
 <template>
-  <div class="tw-flex-grow">
-    <label class="tw-block tw-text-gray tw-mb-[8px] "
+  <div class="flex-grow">
+    <label class="block text-gray mb-[8px] "
       for="name"> {{ label }}
     </label>
     <Datepicker 

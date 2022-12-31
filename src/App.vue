@@ -10,9 +10,9 @@ const languageStore = useLanguageStore()
 </script>
 
 <template>
-  <div :lang="languageStore.language || 'ahmed'" :dir=" languageStore.language === 'ar' ? 'rtl' : 'ltr' " class="tw-flex  " >
+  <div :lang="languageStore.language || 'ahmed'" :dir=" languageStore.language === 'ar' ? 'rtl' : 'ltr' " class="flex  " >
     <SideBar/>
-    <div class="tw-grow" >
+    <div class="grow" >
       <Header/>
       <RouterView />
     </div>

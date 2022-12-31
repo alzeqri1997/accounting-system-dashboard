@@ -17,9 +17,9 @@ onUpdated(() => {
 </script>
 
 <template>
-  <div class="bg-modal-linear tw-mx-[14px] tw-rounded-[10px] tw-py-[18px] tw-px-[25px]">
-    <h1 class="h1 tw-font-semibold tw-mb-[11px]"> البحث في العناصر </h1>
-    <div class="tw-flex tw-gap-[25px]">
+  <div class="bg-modal-linear mx-[14px] rounded-[10px] py-[18px] px-[25px]">
+    <h1 class="h1 font-semibold mb-[11px]"> البحث في العناصر </h1>
+    <div class="flex gap-[25px]">
       <InputField type="text"
         label="الاسم"
         id="name"

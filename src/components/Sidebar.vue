@@ -4,21 +4,21 @@ import { RouterLink } from 'vue-router';
 import LogoutIcon from './icons/LogoutIcon.vue'
 </script>
 <template>
-  <div class="bg-modal-linear tw-rounded-[10px] tw-my-[14px] tw-overflow-y-auto tw-flex tw-flex-col tw-pt-[50px] tw-max-w-[314px] tw-h-[calc(100vh-28px)] tw-w-full">
-    <div class="tw-flex-grow" >
-      <div class="tw-w-full tw-mb-[80px]">
+  <div class="bg-modal-linear rounded-[10px] my-[14px] overflow-y-auto flex flex-col pt-[50px] max-w-[314px] h-[calc(100vh-28px)] w-full">
+    <div class="flex-grow" >
+      <div class="w-full mb-[80px]">
         <div
-          class="tw-bg-primary-dark tw-mx-auto tw-rounded-full tw-w-[121px] tw-h-[121px] tw-flex tw-justify-center tw-items-center">
-          <img class="tw-block"
+          class="bg-primary-dark mx-auto rounded-full w-[121px] h-[121px] flex justify-center items-center">
+          <img class="block"
             src="../assets/logo.png"
             alt="">
         </div>
       </div>
       <NavItems/>
     </div>
-    <RouterLink class="tw-bg-primary-dark tw-px-[30px] tw-py-[20px] tw-flex" to="/logout" >
-      <LogoutIcon class="tw-ml-[22px]"/>
-      <span class="tw-text-[20px]" >تسجيل خروج</span>
+    <RouterLink class="bg-primary-dark px-[30px] py-[20px] flex" to="/logout" >
+      <LogoutIcon class="ml-[22px]"/>
+      <span class="text-[20px]" >تسجيل خروج</span>
     </RouterLink>
   </div>
 </template>

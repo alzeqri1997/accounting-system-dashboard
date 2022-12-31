@@ -19,17 +19,17 @@ const navItems = [
 <template>
   <ul>
     <template v-for=" {name, icon, link} in navItems " :key="name" >
-      <RouterLink v-if="name" class="tw-block tw-mx-[10px]" :to="link" >
-        <li class="tw-flex tw-rounded-[4px] tw-p-[8px] tw-mb-[12px] tw-mx-[8px] tw-items-center tw-px-[12px] ">
-          <span class="bg-icon2 tw-ml-[12px] ">
+      <RouterLink v-if="name" class="block mx-[10px]" :to="link" >
+        <li class="flex rounded-[4px] p-[8px] mb-[12px] mx-[8px] items-center px-[12px] ">
+          <span class="bg-icon2 ml-[12px] ">
             <component :is="icon"></component>
           </span>
-          <span class="tw-text-white tw-text-[20px]" >{{ name }}</span>
+          <span class="text-white text-[20px]" >{{ name }}</span>
         </li>
       </RouterLink>
-      <li v-else class="tw-flex tw-rounded-[4px] tw-p-[8px] tw-mb-[12px] tw-mx-[18px] tw-items-center tw-px-[12px] ">
-        <span class="tw-w-[44px] tw-h-[44px] tw-ml-[12px] tw-bg-primary-dark tw-rounded-full tw-flex tw-justify-center tw-items-center"></span>
-        <div class=" tw-h-[24px] tw-grow tw-block tw-max-w-[148px] tw-bg-primary-dark tw-rounded-[5px] " ></div>
+      <li v-else class="flex rounded-[4px] p-[8px] mb-[12px] mx-[18px] items-center px-[12px] ">
+        <span class="w-[44px] h-[44px] ml-[12px] bg-primary-dark rounded-full flex justify-center items-center"></span>
+        <div class=" h-[24px] grow block max-w-[148px] bg-primary-dark rounded-[5px] " ></div>
       </li>
     </template>
   </ul>

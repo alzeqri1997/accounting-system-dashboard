@@ -41,3 +41,18 @@ body{
 .h1{
   @apply tw-text-[24px] 
 }
+
+.btn{
+  @apply tw-py-[9px] tw-px-[34px] tw-font-[14px] tw-rounded-[10px] tw-bg-primary
+}
+
+.bg-icon{
+  @apply tw-w-[39px] tw-h-[39px] tw-bg-primary-dark tw-rounded-full center-flex
+}
+.bg-icon2{
+  @apply tw-w-[44px] tw-h-[44px] tw-bg-primary-dark tw-rounded-full center-flex
+}
+
+.divider{
+  @apply tw-w-[1px] tw-h-full tw-bg-secondary
+}

@@ -50,6 +50,23 @@ const data = [
   },
 ]
 
+// Functions 
+function sortBy(columnName) {
+  console.log(columnName);
+  sortDirection.value = -1 * sortDirection.value;
+
+  if (sortDirection.value === 1) {
+    reactiveData.value.sort((a,b)=>  a[columnName] > b[columnName] ? 1 : -1 )
+  } else {
+    reactiveData.value.sort( (a,b)=> a[columnName] < b[columnName] ? 1 : -1 )
+  }
+}
+
+function deleteItem(item) {
+  reactiveData.value = reactiveData.value.filter( (el) => el.id !== item.id )
+}
+
+// lifeCycles
 onMounted(() => {
   if(data.length > 6) TrDisplay.value = 'none'
 })

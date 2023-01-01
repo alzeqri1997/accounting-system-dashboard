@@ -15,13 +15,17 @@ const input = defineProps({
   id: {
     type: String,
   },
+  classes: {
+    type: String,
+    default: ''
+  },
   value:{}
 })
 
 </script>
 
 <template>
-  <div class="flex-grow" >
+  <div :class="classes" class="flex-grow" >
     <label class="block text-gray mb-[8px] "
       for="name"> {{ label }}
     </label>

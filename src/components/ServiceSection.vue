@@ -1,8 +1,8 @@
 <script setup>
-//  import DocumentDownload from './icons/DocumentDownload.vue';
 import DocumentDownloadIcon from './icons/DocumentDownloadIcon.vue';
 import PrintIcon from './icons/PrintIcon.vue'
 import CandleIcon from './icons/CandleIcon.vue';
+import AddServiceModal from './AddServiceModal.vue';
 </script>
 
 <template>
@@ -10,7 +10,8 @@ import CandleIcon from './icons/CandleIcon.vue';
     <div class="flex justify-between items-center">
       <h1 class="h1"> الخدمات </h1>
       <div class="flex items-center">
-        <button class="btn ml-[20px]">اضافة خدمة</button>
+        <label for="add-service" class="btn ml-[20px]">اضافة خدمة</label>
+        <AddServiceModal/>
         <div class="divider1"></div>
         <div class="flex gap-[15px] px-[16px]">
           <button class="bg-icon2">

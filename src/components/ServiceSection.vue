@@ -2,6 +2,7 @@
 import DocumentDownloadIcon from './icons/DocumentDownloadIcon.vue';
 import PrintIcon from './icons/PrintIcon.vue'
 import CandleIcon from './icons/CandleIcon.vue';
+import CellsModal from './CellsModal.vue';
 import AddServiceModal from './AddServiceModal.vue';
 </script>
 
@@ -30,9 +31,10 @@ import AddServiceModal from './AddServiceModal.vue';
             10
           </div>
         </div>
-        <button class="bg-icon2">
+        <label for="cells-modal" class="bg-icon2 cursor-pointer">
           <CandleIcon />
-        </button>
+        </label>
+        <CellsModal/>
       </div>
 
     </div>
